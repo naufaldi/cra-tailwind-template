@@ -1,5 +1,5 @@
-import React from 'react'
-import { Outlet, Link } from 'react-router-dom'
+import React from 'react';
+import { Outlet, Link } from 'react-router-dom';
 
 const Layout = () => {
   return (
@@ -9,9 +9,9 @@ const Layout = () => {
         <Link to="second">Second</Link>
       </nav>
 
-      <Outlet/>
+      <Outlet />
     </>
-  )
-}
+  );
+};
 
-export default Layout
+export default Layout;
